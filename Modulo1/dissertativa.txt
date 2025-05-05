@@ -1,0 +1,6 @@
+1. Leia o número inteiro n, que deve estar entre 1 e 10. #Entrada de dado
+2. a) Calcule o valor da dezena como (n - 1). #processamento
+   b) Calcule o valor da unidade como (10 - n). #processamento
+   c) Multiplique o valor da dezena por 10. #processamento
+   d) Some o resultado com o valor da unidade. #processamento
+3. Exiba o resultado final da multiplicação. #resultado

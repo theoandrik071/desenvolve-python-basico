@@ -1,0 +1,14 @@
+Início
+    Escreva("Digite um número de 1 a 10: ")
+    Leia(n)
+
+    Se n < 1 ou n > 10 então
+        Escreva("Número inválido. Deve estar entre 1 e 10.")
+    Senão
+        dezena ← n - 1
+        unidade ← 10 - n
+        resultado ← dezena * 10 + unidade
+
+        Escreva("9 x ", n, " = ", resultado)
+    FimSe
+Fim
