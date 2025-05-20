@@ -1,0 +1,6 @@
+Genero = input("Qual seu genero (M ou F)?")
+Idade = int(input("Qual sua idade:"))
+Tempo = int(input("Quantos anos já trabalhou:"))
+Valido = 'M' and (Idade >= 65) and (Tempo >=30) or (Idade == 60) and (Tempo >= 25)
+'F' and (Idade >= 60) and (Tempo >=30) or (Idade == 60) and (Tempo >= 25)
+print(Valido)
